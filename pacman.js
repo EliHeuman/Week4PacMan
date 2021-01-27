@@ -41,9 +41,8 @@ setInterval(Run, 200);
 function checkPageBounds(direction, imgWidth, pos, pageWidth) {
   // if (direction == 0 && pos + imgWidth > pageWidth) direction = 1;
   // if (direction == 1 && pos < 0) direction = 0;
- const Xmin = 0;
- const Xmax = pageWidth - imgWidth-11.38;
- if( direction == 0 && pos > Xmax || direction == 1 && pos === Xmin //||
+  //const Xmax = pageWidth - imgWidth-11.38;
+ if( direction == 0 && pos+imgWidth  > pageWidth || direction == 1 && pos === 0 //||
   //pacArray[direction][focus] !== './pacman1.png'
 ){
   reverse = !reverse;
