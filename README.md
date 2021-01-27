@@ -1,3 +1,3 @@
 # Eli's PacMan
   
-###Moves Pacman accrose the screen MIT Xpro project.
+### Moves Pacman accrose the screen MIT Xpro project.
