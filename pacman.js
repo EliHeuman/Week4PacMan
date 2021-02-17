@@ -8,7 +8,7 @@ const pacArray = [
   ['./pacman1.png', './pacman2.png'],
   ['./pacman3.png', './pacman4.png'],
 ];
-
+// this is a test
 // this variable defines what direction should PacMan go into:
 // 0 = left to right
 // 1 = right to left (reverse)
